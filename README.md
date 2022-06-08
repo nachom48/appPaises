@@ -1,27 +1,34 @@
-# PaisesApp
+# Computadoras Muñoz
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+Frontend de una pagina para búsquedas de paises, consumiendo la API REST de https://restcountries.com/.
 
-## Development server
+Versión online [Aquí](https://app-paises-rho.vercel.app/capital/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este proyecto fue maquetado principalmente con [Angular]
+# Tabla de contenidos
 
-## Code scaffolding
+- [Instalación](#Instalación)
+- [Uso](#Uso)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Instalación 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Clonar el repositorio.
+- Utilizar `npm install` en el directorio raiz.
+- Luego `ng serve -o`.
 
-## Running unit tests
+### Librerias utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-Bootstrap
 
-## Running end-to-end tests
+# Uso
+El sitio permite la búsqueda de paises segun su capital o su nombre, ademas cuando se busca por su nombre te brinda sugerencias . Tambien permite ver mas informacion del pais en Ver mas..
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### Navegando el Sitio
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![](src/assets/example-page.gif)
+
+# Creditos
+
+Este trabajo fue desarrollado por [@nachom48](https://github.com/nachom48) durante el curso de Angular dictado por [@Fernando Herrera], profesor de Udemy.
