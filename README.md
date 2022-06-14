@@ -1,4 +1,4 @@
-# Computadoras Muñoz
+# App Paises
 
 Frontend de una pagina para búsquedas de paises, consumiendo la API REST de https://restcountries.com/.
 
